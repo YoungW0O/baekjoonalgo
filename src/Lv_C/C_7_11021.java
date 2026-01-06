@@ -1,0 +1,20 @@
+package Lv_C;
+
+import java.util.Scanner;
+
+public class C_7_11021 {
+
+    public static void main(String[] args){
+
+        Scanner sc = new Scanner(System.in);
+
+        int A = sc.nextInt();
+
+        for (int i = 1; i<=A; i++){
+            int a = sc.nextInt();
+            int b = sc.nextInt();
+
+            System.out.println("Case #"+i+": "+(a+b));
+        }
+    }
+}
